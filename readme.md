@@ -1,8 +1,8 @@
 # netlogo-minehunter
 
-This is a 2D simulation of a basic autonomous minehunting scenario.  A live demo is at [paulopperman.github.io/netlogo-minehunter/minefield-demo.html](https://paulopperman.github.io/netlogo-minehunter/minefield-demo.html).
+This is a 2D simulation of a basic autonomous minehunting scenario.  A live demo is at [paulopperman.github.io/netlogo-minehunter/minefield-demo.html](https://paulopperman.github.io/netlogo-minehunter/minefield-demo).
 
-![minefield-demo interface](minefield-demo interface.png)
+![minefield-demo interface]./(minefield-demo interface.png)
 
 Mines are randomly distributed throughout the world, and don’t move.  They explode when a seeker moves onto the mine’s patch, killing both the mine and the seeker. Mines can be neutralized by a seeker, in which case it won’t react anymore.
 
