@@ -32,6 +32,13 @@ to go
   neutralize-mines ;;
   move-seekers  ;; move seekers to next position
   tick
+  if not any? seekers [
+    print "Mines neutralized:"
+    print count mines with [ color = green ]
+    print "Mines remaining:"
+    print count mines with [ color = red ]
+    stop
+  ]
 end
 
 to check-exploded
@@ -40,6 +47,7 @@ to check-exploded
     if any? seekers-here [
       if not neutralized [
         ask seekers-here [die]
+        die
       ]
     ]
   ]
@@ -180,7 +188,7 @@ scan-width
 scan-width
 0
 100
-20.0
+13.0
 1
 1
 NIL
@@ -217,6 +225,25 @@ scan-range
 1
 NIL
 HORIZONTAL
+
+PLOT
+774
+40
+1051
+257
+Engagement Results
+NIL
+NIL
+0.0
+10.0
+0.0
+10.0
+true
+false
+"" ""
+PENS
+"active mines" 1.0 0 -2674135 true "" "plot count mines with [color = red]"
+"seekers" 1.0 0 -13791810 true "" "plot count seekers"
 
 @#$#@#$#@
 ## WHAT IS IT?
