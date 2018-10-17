@@ -1,6 +1,6 @@
 # netlogo-minehunter
 
-This is a 2D simulation of a basic autonomous minehunting scenario.  A live demo is at [paulopperman.github.io/netlogo-minehunter/minefield-demo.html](https://paulopperman.github.io/netlogo-minehunter/minefield-demo.html).
+This is a 2D simulation of a basic autonomous minehunting scenario.  A live demo is at [paulopperman.github.io/netlogo-minehunter/minefield-demo.html](https://paulopperman.github.io/netlogo-minehunter/minefield-demo).
 
 ![minefield-demo interface](.\minefield-demo interface.png)
 
